@@ -7460,7 +7460,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 0
   idleTime: 1
-  aggresionRange: 0
+  aggresionRange: 15
   walkSpeed: 1.5
   runSpeed: 3
   turnSpeed: 3
@@ -7468,6 +7468,7 @@ MonoBehaviour:
   - {fileID: 1893737730}
   - {fileID: 8257495}
   - {fileID: 1831128905}
+  attackRange: 1.5
 --- !u!195 &1175900017
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -7499,7 +7500,7 @@ Transform:
   m_GameObject: {fileID: 1175900015}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7.38, y: 0, z: -11.85}
+  m_LocalPosition: {x: 7.38, y: 0.09, z: -11.85}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19021,7 +19022,7 @@ Animator:
   m_Controller: {fileID: 9100000, guid: fc0b4efffaae26043a9681565e0e043b, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
-  m_ApplyRootMotion: 0
+  m_ApplyRootMotion: 1
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
   m_WarningMessage: 
@@ -22299,6 +22300,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7676215551568420340}
   - component: {fileID: 4352528427164452750}
+  - component: {fileID: 7676215551568420341}
   m_Layer: 0
   m_Name: enemy_boss_vanguard
   m_TagString: Untagged
@@ -23077,6 +23079,18 @@ Transform:
   - {fileID: 1351441558064096148}
   m_Father: {fileID: 1175900018}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7676215551568420341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7047207572882900814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 54aa42f21921a8149b863d050a7d520d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!23 &7713201138738254260
 MeshRenderer:
   m_ObjectHideFlags: 0
