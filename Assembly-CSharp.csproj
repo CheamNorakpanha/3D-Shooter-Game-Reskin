@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scripts\Target.cs" />
     <Compile Include="Assets\Scripts\Managers\GameManager.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_Boss\Enemy_BossVisuals.cs" />
+    <Compile Include="Assets\Models\New Models\Enemy_Boss\Scripts\MoveState_Boss_VG.cs" />
     <Compile Include="Assets\Scripts\MissionManager\Mission_CarDelivery.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_CorruptionCrystal.cs" />
     <Compile Include="Assets\Scripts\Enemy\Data\Enemy_MeleeWeaponData.cs" />
@@ -142,6 +143,7 @@
     <Compile Include="Assets\Scripts\MissionManager\Mission_KeyFind.cs" />
     <Compile Include="Assets\Scripts\Interactble\Pickup_Weapon.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_SeconoderyRangeWeaponModel.cs" />
+    <Compile Include="Assets\Models\New Models\Enemy_Boss\Scripts\Enemy_Boss_VG.cs" />
     <Compile Include="Assets\Scripts\Player\Player_WeaponController.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_Boss\DeadState_Boss.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_Range\RunToCoverState_Range.cs" />
@@ -151,6 +153,7 @@
     <Compile Include="Assets\Scripts\MissionManager\Mission.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_Range\IdleState_Range.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_Boss\Enemy_Boss.cs" />
+    <Compile Include="Assets\Models\New Models\Enemy_Boss\Scripts\IdleState_Boss_VG.cs" />
     <Compile Include="Assets\Scripts\LevelGeneration\LevelPart.cs" />
   </ItemGroup>
   <ItemGroup>
