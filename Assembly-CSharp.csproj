@@ -126,6 +126,7 @@
     <Compile Include="Assets\Scripts\Enemy\Enemy_Range\MoveState_Range.cs" />
     <Compile Include="Assets\Scripts\MissionManager\MissionManager.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_Range\ThrowGrenadeState_Range.cs" />
+    <Compile Include="Assets\Models\New Models\Enemy_Boss\Scripts\AbilityState_Boss_VG.cs" />
     <Compile Include="Assets\Models\New Models\Enemy_Boss\Scripts\AttackState_Boss_VG.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_Boss\AttackState_Boss.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_Boss\JumpAttackState_Boss.cs" />
@@ -138,6 +139,7 @@
     <Compile Include="Assets\Scripts\Dummy.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_HitBox.cs" />
     <Compile Include="Assets\Scripts\Player\Weapon\Weapon.cs" />
+    <Compile Include="Assets\Models\New Models\Enemy_Boss\Scripts\JumpAttackState_Boss_VG.cs" />
     <Compile Include="Assets\Scripts\MissionManager\MissionObject_CarToDeliver.cs" />
     <Compile Include="Assets\Scripts\LevelGeneration\LevelGenerator.cs" />
     <Compile Include="Assets\Scripts\Interface\IDamagable.cs" />

@@ -31,13 +31,12 @@ public class MoveState_Boss_VG : EnemyState
         if(enemy.inBattleMode)
         {
             Vector3 playerPOS = enemy.player.position;
-
             enemy.agent.SetDestination(playerPOS);
 
-            if (enemy.PlayerInAttackRange())
-            {
+            if (enemy.CanDoJumpAttack())
+                stateMachine.ChangeState(enemy.jumpAttackState);
+            else if (enemy.PlayerInAttackRange())
                 stateMachine.ChangeState(enemy.attackState);
-            }
         }
         else
         {
