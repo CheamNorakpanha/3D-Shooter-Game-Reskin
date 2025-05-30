@@ -28,7 +28,7 @@ public class AbilityState_Boss_VG : EnemyState
 
         enemy.FaceTarget(enemy.player.position);
 
-        if (stateTimer < 0)
+        if (stateTimer < 0 && enemy.flamethrowActive)
             enemy.ActivateFlamethrower(false);
 
         if (triggerCalled)
@@ -39,5 +39,11 @@ public class AbilityState_Boss_VG : EnemyState
     {
         base.AbilityTrigger();
         enemy.ActivateFlamethrower(true);
+    }
+
+    public override void Exit()
+    {
+        base.Exit();
+        enemy.SetAbilityOnCooldown();
     }
 }

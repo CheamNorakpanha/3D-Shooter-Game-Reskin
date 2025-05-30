@@ -1,11 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class MoveState_Boss_VG : EnemyState
 {
     private Enemy_Boss_VG enemy;
     private Vector3 destination;
+
+    private float actionTimer;
 
     public MoveState_Boss_VG(Enemy enemyBase, EnemyStateMachine stateMachine, string animBoolName) : base(enemyBase, stateMachine, animBoolName)
     {
@@ -20,21 +20,26 @@ public class MoveState_Boss_VG : EnemyState
 
         destination = enemy.GetPatrolDestination();
         enemy.agent.SetDestination(destination);
+
+        actionTimer = enemy.actionCooldown;
     }
 
     public override void Update()
     {
         base.Update();
 
+        actionTimer -= Time.deltaTime;
         enemy.FaceTarget(GetNextPathPoint());
 
-        if(enemy.inBattleMode)
+        if (enemy.inBattleMode)
         {
             Vector3 playerPOS = enemy.player.position;
             enemy.agent.SetDestination(playerPOS);
 
-            if (enemy.CanDoJumpAttack())
-                stateMachine.ChangeState(enemy.jumpAttackState);
+            if (actionTimer < 0)
+            {
+                PerformRandomAction();
+            }
             else if (enemy.PlayerInAttackRange())
                 stateMachine.ChangeState(enemy.attackState);
         }
@@ -44,4 +49,22 @@ public class MoveState_Boss_VG : EnemyState
                 stateMachine.ChangeState(enemy.idleState);
         }
     }
+
+    private void PerformRandomAction()
+    {
+        actionTimer = enemy.actionCooldown;
+
+        if (Random.Range(0, 2) == 0) // rolls number from 0 to 1
+        {
+            if (enemy.CanDoAbility())
+                stateMachine.ChangeState(enemy.abilityState);
+        }
+        else
+        {
+            if (enemy.CanDoJumpAttack())
+                stateMachine.ChangeState(enemy.jumpAttackState);
+        }
+            
+    }
+
 }
