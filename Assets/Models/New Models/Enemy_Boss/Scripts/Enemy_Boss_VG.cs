@@ -68,11 +68,11 @@ public class Enemy_Boss_VG : Enemy
             EnterBattleMode();
     }
 
-    public override void GetHit(int damage)
+    public override void Die()
     {
-        base.GetHit(damage);
+        base.Die();
 
-        if (health.currentHealth <= 0 && stateMachine.currentState != deadState)
+        if (stateMachine.currentState != deadState)
             stateMachine.ChangeState(deadState);
     }
 

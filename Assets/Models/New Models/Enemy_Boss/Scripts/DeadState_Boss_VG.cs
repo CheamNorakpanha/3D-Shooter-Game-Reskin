@@ -24,6 +24,8 @@ public class DeadState_Boss_VG : EnemyState
         enemy.anim.enabled = false;
         enemy.agent.isStopped = true;
 
+        enemy.ragdoll.RagdollActive(true);
+
         stateTimer = 1.5f;
     }
 
