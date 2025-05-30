@@ -27,10 +27,13 @@ public class Enemy_Boss_VG : Enemy
     public AttackState_Boss_VG attackState { get; private set; }
     public JumpAttackState_Boss_VG jumpAttackState { get; private set; }
     public AbilityState_Boss_VG abilityState { get; private set; }
+    public Enemy_BossVisuals_VG bossVisuals { get; private set; }
 
     protected override void Awake()
     {
         base.Awake();
+
+        bossVisuals = GetComponent<Enemy_BossVisuals_VG>();
 
         idleState = new IdleState_Boss_VG(this, stateMachine, "Idle");
         moveState = new MoveState_Boss_VG(this, stateMachine, "Move");
