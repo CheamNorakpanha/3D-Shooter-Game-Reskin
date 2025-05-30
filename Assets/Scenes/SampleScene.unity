@@ -7459,9 +7459,9 @@ MonoBehaviour:
   whatIsPlayer:
     serializedVersion: 2
     m_Bits: 0
-  idleTime: 1
+  idleTime: 3
   aggresionRange: 15
-  walkSpeed: 1.5
+  walkSpeed: 1.25
   runSpeed: 3
   turnSpeed: 8
   patrolPoints:
@@ -7471,7 +7471,7 @@ MonoBehaviour:
   actionCooldown: 5
   attackRange: 1.5
   flamethrower: {fileID: 198637950160825855}
-  abilityCooldown: 7
+  abilityCooldown: 15
   flamethrowDuration: 3
   jumpAttackCooldown: 6
   travelTimeToTarget: 1

@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\assets\\models\\new models\\enemy_boss\\scripts\\movestate_boss_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|d:\\gamedev\\projects\\3d-shooter-game-reskin\\assets\\models\\new models\\enemy_boss\\scripts\\attackstate_boss_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|solutionrelative:assets\\models\\new models\\enemy_boss\\scripts\\attackstate_boss_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|d:\\gamedev\\projects\\3d-shooter-game-reskin\\assets\\models\\new models\\enemy_boss\\scripts\\movestate_boss_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|solutionrelative:assets\\models\\new models\\enemy_boss\\scripts\\movestate_boss_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\assets\\models\\new models\\enemy_boss\\scripts\\enemy_boss_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|solutionrelative:assets\\models\\new models\\enemy_boss\\scripts\\enemy_boss_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\assets\\models\\new models\\enemy_boss\\scripts\\jumpattackstate_boss_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|solutionrelative:assets\\models\\new models\\enemy_boss\\scripts\\jumpattackstate_boss_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|d:\\gamedev\\projects\\3d-shooter-game-reskin\\assets\\models\\new models\\enemy_boss\\scripts\\abilitystate_boss_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|solutionrelative:assets\\models\\new models\\enemy_boss\\scripts\\abilitystate_boss_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +26,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AbilityState_Boss_VG.cs",
-              "DocumentMoniker": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\AbilityState_Boss_VG.cs",
-              "RelativeDocumentMoniker": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\AbilityState_Boss_VG.cs",
-              "ToolTip": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\AbilityState_Boss_VG.cs",
-              "RelativeToolTip": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\AbilityState_Boss_VG.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowC4AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T18:20:22.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "JumpAttackState_Boss_VG.cs",
-              "DocumentMoniker": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\JumpAttackState_Boss_VG.cs",
-              "RelativeDocumentMoniker": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\JumpAttackState_Boss_VG.cs",
-              "ToolTip": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\JumpAttackState_Boss_VG.cs",
-              "RelativeToolTip": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\JumpAttackState_Boss_VG.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAowC8AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-29T16:49:58.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MoveState_Boss_VG.cs",
-              "DocumentMoniker": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\MoveState_Boss_VG.cs",
-              "RelativeDocumentMoniker": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\MoveState_Boss_VG.cs",
-              "ToolTip": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\MoveState_Boss_VG.cs",
-              "RelativeToolTip": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\MoveState_Boss_VG.cs",
-              "ViewState": "AgIAABUAAAAAAAAAAAAowC4AAAAJAAAAAAAAAA==",
+              "Title": "AttackState_Boss_VG.cs",
+              "DocumentMoniker": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\AttackState_Boss_VG.cs",
+              "RelativeDocumentMoniker": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\AttackState_Boss_VG.cs",
+              "ToolTip": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\AttackState_Boss_VG.cs",
+              "RelativeToolTip": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\AttackState_Boss_VG.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T08:14:41.873Z",
+              "WhenOpened": "2025-05-30T08:21:11.382Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Enemy_Boss_VG.cs",
-              "DocumentMoniker": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\Enemy_Boss_VG.cs",
-              "RelativeDocumentMoniker": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\Enemy_Boss_VG.cs",
-              "ToolTip": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\Enemy_Boss_VG.cs",
-              "RelativeToolTip": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\Enemy_Boss_VG.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Title": "MoveState_Boss_VG.cs",
+              "DocumentMoniker": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\MoveState_Boss_VG.cs",
+              "RelativeDocumentMoniker": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\MoveState_Boss_VG.cs",
+              "ToolTip": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\MoveState_Boss_VG.cs",
+              "RelativeToolTip": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\MoveState_Boss_VG.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAnwCwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-28T08:11:59.388Z",
+              "WhenOpened": "2025-05-28T08:14:41.873Z",
               "EditorCaption": ""
             }
           ]
