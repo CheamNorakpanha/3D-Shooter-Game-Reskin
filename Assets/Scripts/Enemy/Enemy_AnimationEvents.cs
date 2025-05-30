@@ -5,6 +5,7 @@ public class Enemy_AnimationEvents : MonoBehaviour
     private Enemy enemy;
     private Enemy_Melee enemyMelee;
     private Enemy_Boss enemyBoss;
+    private Enemy_Boss_VG enemyBossVG;
 
     private void Awake()
     {
@@ -34,6 +35,11 @@ public class Enemy_AnimationEvents : MonoBehaviour
     public void BossJumpImpact()
     {
         enemyBoss?.JumpImpact();
+
+        if (enemyBossVG == null)
+            enemyBossVG = GetComponentInParent<Enemy_Boss_VG>();
+
+        enemyBossVG?.JumpImpact();
     }
 
     public void BeginMeleeAttackCheck()

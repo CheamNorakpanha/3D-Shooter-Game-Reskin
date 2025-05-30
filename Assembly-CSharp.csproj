@@ -64,6 +64,7 @@
     <Compile Include="Assets\Input Manager\PlayerControls.cs" />
     <Compile Include="Assets\Scripts\HealthController.cs" />
     <Compile Include="Assets\Scripts\Enemy\StateMachine\EnemyState.cs" />
+    <Compile Include="Assets\Models\New Models\Enemy_Boss\Scripts\DeadState_Boss_VG.cs" />
     <Compile Include="Assets\Scripts\MissionManager\MissionObject_Key.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_Axe.cs" />
     <Compile Include="Assets\Scripts\Enemy\Enemy_Range\AdvancePlayerState_Range.cs" />

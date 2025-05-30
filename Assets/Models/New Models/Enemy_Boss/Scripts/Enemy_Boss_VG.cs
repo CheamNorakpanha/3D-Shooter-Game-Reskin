@@ -14,11 +14,18 @@ public class Enemy_Boss_VG : Enemy
     public bool flamethrowActive { get; private set; }
 
     [Header("Jump Attack")]
-    public float jumpAttackCooldown = 10;
     
+
+    public float jumpAttackCooldown = 10;
     private float lastTimeJumped;
     public float travelTimeToTarget = 1;
     public float minJumpDistanceRequired;
+
+    [Space]
+    public float impactRadius = 2.5f;
+    public float impactPower = 5;
+    [SerializeField] private float upforceMultiplier = 10;
+
     [Space]
     [SerializeField] private LayerMask whatToIgnore;
 
@@ -28,6 +35,7 @@ public class Enemy_Boss_VG : Enemy
     public JumpAttackState_Boss_VG jumpAttackState { get; private set; }
     public AbilityState_Boss_VG abilityState { get; private set; }
     public Enemy_BossVisuals_VG bossVisuals { get; private set; }
+    public DeadState_Boss_VG deadState { get; private set; }
 
     protected override void Awake()
     {
@@ -40,6 +48,7 @@ public class Enemy_Boss_VG : Enemy
         attackState = new AttackState_Boss_VG(this, stateMachine, "Attack");
         jumpAttackState = new JumpAttackState_Boss_VG(this, stateMachine, "JumpAttack");
         abilityState = new AbilityState_Boss_VG(this, stateMachine, "Ability");
+        deadState = new DeadState_Boss_VG(this, stateMachine, "Idle");
     }
 
     protected override void Start()
@@ -59,8 +68,19 @@ public class Enemy_Boss_VG : Enemy
             EnterBattleMode();
     }
 
+    public override void GetHit(int damage)
+    {
+        base.GetHit(damage);
+
+        if (health.currentHealth <= 0 && stateMachine.currentState != deadState)
+            stateMachine.ChangeState(deadState);
+    }
+
     public override void EnterBattleMode()
     {
+        if (inBattleMode)
+            return;
+
         base.EnterBattleMode();
         stateMachine.ChangeState(moveState);
     }
@@ -97,6 +117,19 @@ public class Enemy_Boss_VG : Enemy
         return false;
     }
 
+    public void JumpImpact()
+    {
+        Collider[] colliders = Physics.OverlapSphere(transform.position, impactRadius);
+
+        foreach (Collider hit in colliders)
+        {
+            Rigidbody rb = hit.GetComponent<Rigidbody>();
+
+            if (rb != null)
+                rb.AddExplosionForce(impactPower, transform.position, impactRadius, upforceMultiplier, ForceMode.Impulse);
+        }
+    }
+
     public bool CanDoJumpAttack()
     {
         float distanceToPlayer = Vector3.Distance(transform.position, player.position);
@@ -131,7 +164,6 @@ public class Enemy_Boss_VG : Enemy
         return false;
     }
 
-
     public bool PlayerInAttackRange() => Vector3.Distance(transform.position, player.position) < attackRange;
 
     protected override void OnDrawGizmos()
@@ -152,5 +184,8 @@ public class Enemy_Boss_VG : Enemy
 
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, minJumpDistanceRequired);
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, impactRadius);
     }
 }

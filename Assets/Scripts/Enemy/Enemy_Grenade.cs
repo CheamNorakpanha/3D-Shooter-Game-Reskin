@@ -34,6 +34,7 @@ public class Enemy_Grenade : MonoBehaviour
 
 
         HashSet<GameObject> uniqueEntities = new HashSet<GameObject>();
+
         Collider[] colliders = Physics.OverlapSphere(transform.position, impactRadius);
 
         foreach (Collider hit in colliders)

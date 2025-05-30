@@ -1,0 +1,47 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class DeadState_Boss_VG : EnemyState
+{
+    private Enemy_Boss_VG enemy;
+    private bool interactionDisabled;
+
+
+    public DeadState_Boss_VG(Enemy enemyBase, EnemyStateMachine stateMachine, string animBoolName) : base(enemyBase, stateMachine, animBoolName)
+    {
+        enemy = enemyBase as Enemy_Boss_VG;
+    }
+
+    public override void Enter()
+    {
+        base.Enter();
+
+        enemy.abilityState.DisableFlamethrower();
+
+        interactionDisabled = false;
+
+        enemy.anim.enabled = false;
+        enemy.agent.isStopped = true;
+
+        stateTimer = 1.5f;
+    }
+
+    public override void Update()
+    {
+        base.Update();
+
+        //uncomment if you want to disable interaction
+        //DisableInteractionIfShould();
+    }
+
+    private void DisableInteractionIfShould()
+    {
+        if (stateTimer < 0 && interactionDisabled == false)
+        {
+            interactionDisabled = true;
+            enemy.ragdoll.RagdollActive(false);
+            enemy.ragdoll.CollidersActive(false);
+        }
+    }
+}

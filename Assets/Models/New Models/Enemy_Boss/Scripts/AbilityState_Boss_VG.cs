@@ -30,11 +30,19 @@ public class AbilityState_Boss_VG : EnemyState
 
         enemy.FaceTarget(enemy.player.position);
 
-        if (stateTimer < 0 && enemy.flamethrowActive)
-            enemy.ActivateFlamethrower(false);
+        if (stateTimer < 0)
+            DisableFlamethrower();
 
         if (triggerCalled)
             stateMachine.ChangeState(enemy.moveState);
+    }
+
+    public void DisableFlamethrower()
+    {
+        if (enemy.flamethrowActive == false)
+            return;
+
+        enemy.ActivateFlamethrower(false);
     }
 
     public override void AbilityTrigger()
