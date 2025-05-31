@@ -3,31 +3,39 @@ using UnityEngine;
 public class Enemy_Boss_VG : Enemy
 {
     [Header("Boss details")]
+    public BossWeaponType bossWeaponType;
     public float actionCooldown = 10;
     public float attackRange;
 
     [Header("Ability")]
-    public ParticleSystem flamethrower;
+    public float minAbilityDistance;
     public float abilityCooldown;
     private float lastTimeUsedAbility;
+
+    [Header("Flamethrower")]
+    public float flameDamageCooldown;
+    public ParticleSystem flamethrower;
     public float flamethrowDuration;
     public bool flamethrowActive { get; private set; }
 
-    [Header("Jump Attack")]
-    
 
+    [Header("Jump Attack")]
     public float jumpAttackCooldown = 10;
     private float lastTimeJumped;
     public float travelTimeToTarget = 1;
     public float minJumpDistanceRequired;
-
     [Space]
     public float impactRadius = 2.5f;
     public float impactPower = 5;
     [SerializeField] private float upforceMultiplier = 10;
-
     [Space]
     [SerializeField] private LayerMask whatToIgnore;
+
+    [Header("Attack")]
+    [SerializeField] private int meleeAttackDamage;
+    [SerializeField] private Transform[] damagePoints;
+    [SerializeField] private float attackCheckRadius;
+    [SerializeField] private GameObject meleeAttackFx;
 
     public IdleState_Boss_VG idleState { get; private set; }
     public MoveState_Boss_VG moveState { get; private set; }
@@ -66,6 +74,8 @@ public class Enemy_Boss_VG : Enemy
 
         if (ShouldEnterBattleMode())
             EnterBattleMode();
+
+        MeleeAttackCheck(damagePoints, attackCheckRadius, meleeAttackFx, meleeAttackDamage);
     }
 
     public override void Die()
@@ -109,6 +119,11 @@ public class Enemy_Boss_VG : Enemy
 
     public bool CanDoAbility()
     {
+        bool playerWithinDistance = Vector3.Distance(transform.position, player.position) < minAbilityDistance;
+
+        if (playerWithinDistance == false)
+            return false;
+
         if (Time.time > lastTimeUsedAbility + abilityCooldown)
         {
             return true;
@@ -185,7 +200,18 @@ public class Enemy_Boss_VG : Enemy
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, minJumpDistanceRequired);
 
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawWireSphere(transform.position, minAbilityDistance);
+
         Gizmos.color = Color.red;
         Gizmos.DrawWireSphere(transform.position, impactRadius);
+
+        if (damagePoints.Length > 0)
+        {
+            foreach (var damagePoint in damagePoints)
+            {
+                Gizmos.DrawWireSphere(damagePoint.position, attackCheckRadius);
+            }
+        }
     }
 }

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemy_Shield : MonoBehaviour, IDamagable
+public class Enemy_Shield : MonoBehaviour
 {
     private Enemy_Melee enemy;
     [SerializeField] private int durability;   

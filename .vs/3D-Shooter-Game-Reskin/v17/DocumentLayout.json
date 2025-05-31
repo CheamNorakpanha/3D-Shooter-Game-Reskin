@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|d:\\gamedev\\projects\\3d-shooter-game-reskin\\assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\assets\\models\\new models\\enemy_boss\\scripts\\enemy_boss_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|solutionrelative:assets\\models\\new models\\enemy_boss\\scripts\\enemy_boss_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\assets\\models\\new models\\enemy_boss\\scripts\\deadstate_boss_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|solutionrelative:assets\\models\\new models\\enemy_boss\\scripts\\deadstate_boss_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|d:\\gamedev\\projects\\3d-shooter-game-reskin\\assets\\scripts\\enemy\\enemy_boss\\deadstate_boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemy\\enemy_boss\\deadstate_boss.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|d:\\gamedev\\projects\\3d-shooter-game-reskin\\assets\\models\\new models\\enemy_boss\\scripts\\flamethrow_damagearea_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5EB306A-4F9C-BE0B-21FE-23B33B744861}|Assembly-CSharp.csproj|solutionrelative:assets\\models\\new models\\enemy_boss\\scripts\\flamethrow_damagearea_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +27,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Enemy.cs",
-              "DocumentMoniker": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Scripts\\Enemy\\Enemy.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy.cs",
-              "ToolTip": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Scripts\\Enemy\\Enemy.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy.cs",
-              "ViewState": "AgIAAFoAAAAAAAAAAAAvwG0AAAAdAAAAAAAAAA==",
+              "Title": "Enemy_Boss_VG.cs",
+              "DocumentMoniker": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\Enemy_Boss_VG.cs",
+              "RelativeDocumentMoniker": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\Enemy_Boss_VG.cs",
+              "ToolTip": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\Enemy_Boss_VG.cs",
+              "RelativeToolTip": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\Enemy_Boss_VG.cs",
+              "ViewState": "AgIAAHUAAAAAAAAAAAAiwIUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T12:00:42.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "DeadState_Boss.cs",
-              "DocumentMoniker": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Scripts\\Enemy\\Enemy_Boss\\DeadState_Boss.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Enemy\\Enemy_Boss\\DeadState_Boss.cs",
-              "ToolTip": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Scripts\\Enemy\\Enemy_Boss\\DeadState_Boss.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Enemy\\Enemy_Boss\\DeadState_Boss.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T11:58:53.257Z",
+              "WhenOpened": "2025-05-30T15:14:28.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "DeadState_Boss_VG.cs",
-              "DocumentMoniker": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\DeadState_Boss_VG.cs",
-              "RelativeDocumentMoniker": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\DeadState_Boss_VG.cs",
-              "ToolTip": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\DeadState_Boss_VG.cs",
-              "RelativeToolTip": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\DeadState_Boss_VG.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAqAAAAAAAAAA==",
+              "Title": "Flamethrow_DamageArea_VG.cs",
+              "DocumentMoniker": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\Flamethrow_DamageArea_VG.cs",
+              "RelativeDocumentMoniker": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\Flamethrow_DamageArea_VG.cs",
+              "ToolTip": "D:\\GameDev\\Projects\\3D-Shooter-Game-Reskin\\Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\Flamethrow_DamageArea_VG.cs",
+              "RelativeToolTip": "Assets\\Models\\New Models\\Enemy_Boss\\Scripts\\Flamethrow_DamageArea_VG.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-30T11:00:46.033Z",
+              "WhenOpened": "2025-05-31T07:12:08.771Z",
               "EditorCaption": ""
             }
           ]

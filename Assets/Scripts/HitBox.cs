@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HitBox : MonoBehaviour, IDamagable
+public class HitBox : MonoBehaviour
 {
     [SerializeField] protected float damageMultiplier = 1f;
 
