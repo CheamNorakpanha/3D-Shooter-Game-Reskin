@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Weapon_Auto-Rifle_D
   m_EditorClassIdentifier: 
   weaponName: Blaster K-567
-  bulletDamage: 12
+  bulletDamage: 1200
   bulletsInMagazine: 32
   magazineCapacity: 32
   totalReserveAmmo: 2147483647

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GameDev\\Projects\\3D-Shooter-Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{52E03DAE-2E8F-AA61-C65C-7CB358FB11AB}|Assembly-CSharp.csproj|d:\\gamedev\\projects\\3d-shooter-game\\assets\\new\\new models\\enemy_boss\\scripts\\flamethrow_damagearea_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{52E03DAE-2E8F-AA61-C65C-7CB358FB11AB}|Assembly-CSharp.csproj|solutionrelative:assets\\new\\new models\\enemy_boss\\scripts\\flamethrow_damagearea_vg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Flamethrow_DamageArea_VG.cs",
+              "DocumentMoniker": "D:\\GameDev\\Projects\\3D-Shooter-Game\\Assets\\New\\New Models\\Enemy_Boss\\Scripts\\Flamethrow_DamageArea_VG.cs",
+              "RelativeDocumentMoniker": "Assets\\New\\New Models\\Enemy_Boss\\Scripts\\Flamethrow_DamageArea_VG.cs",
+              "ToolTip": "D:\\GameDev\\Projects\\3D-Shooter-Game\\Assets\\New\\New Models\\Enemy_Boss\\Scripts\\Flamethrow_DamageArea_VG.cs",
+              "RelativeToolTip": "Assets\\New\\New Models\\Enemy_Boss\\Scripts\\Flamethrow_DamageArea_VG.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-31T15:18:27.648Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
