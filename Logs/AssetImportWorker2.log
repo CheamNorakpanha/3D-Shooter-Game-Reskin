@@ -15,7 +15,7 @@ D:/GameDev/Projects/3D-Shooter-Game
 -logFile
 Logs/AssetImportWorker2.log
 -srvPort
-53768
+63829
 Successfully changed project path to: D:/GameDev/Projects/3D-Shooter-Game
 D:/GameDev/Projects/3D-Shooter-Game
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,16 +49,16 @@ D:/GameDev/Projects/3D-Shooter-Game
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [45780]  Target information:
+Player connection [38004]  Target information:
 
-Player connection [45780]  * "[IP] 192.168.64.1 [Port] 0 [Flags] 2 [Guid] 280516919 [EditorId] 280516919 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OI5623P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [38004]  * "[IP] 172.27.0.1 [Port] 0 [Flags] 2 [Guid] 1946871714 [EditorId] 1946871714 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OI5623P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [45780]  * "[IP] 192.168.0.24 [Port] 0 [Flags] 2 [Guid] 280516919 [EditorId] 280516919 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OI5623P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [38004]  * "[IP] 192.168.0.29 [Port] 0 [Flags] 2 [Guid] 1946871714 [EditorId] 1946871714 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OI5623P) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [45780] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [45780] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [38004] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [38004] Host joined alternative multi-casting on [225.0.0.222:34997]...
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-Refreshing native plugins compatible for Editor in 9.16 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.40f1 (cbdda657d2f0)
 [Subsystems] Discovering subsystems at path D:/Unity/2022.3.40f1/Editor/Data/Resources/UnitySubsystems
@@ -74,44 +74,44 @@ Initialize mono
 Mono path[0] = 'D:/Unity/2022.3.40f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Unity/2022.3.40f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'D:/Unity/2022.3.40f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Unity/2022.3.40f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002447 seconds.
-- Loaded All Assemblies, in  0.324 seconds
+Registered in 0.004829 seconds.
+- Loaded All Assemblies, in  0.327 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.257 seconds
-Domain Reload Profiling: 581ms
-	BeginReloadAssembly (105ms)
+- Finished resetting the current domain, in  0.233 seconds
+Domain Reload Profiling: 560ms
+	BeginReloadAssembly (122ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
+	RebuildCommonClasses (28ms)
 	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (132ms)
-		LoadAssemblies (105ms)
+	LoadAllAssembliesAndSetupDomain (121ms)
+		LoadAssemblies (121ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (130ms)
-			TypeCache.Refresh (128ms)
-				TypeCache.ScanAssembly (115ms)
+		AnalyzeDomain (119ms)
+			TypeCache.Refresh (118ms)
+				TypeCache.ScanAssembly (106ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (257ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (233ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (213ms)
+		SetupLoadedEditorAssemblies (190ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (6ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (2ms)
-			ProcessInitializeOnLoadAttributes (135ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -120,7 +120,7 @@ Domain Reload Profiling: 581ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.668 seconds
+- Loaded All Assemblies, in  0.699 seconds
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
@@ -130,47 +130,47 @@ Package Manager log level set to [2]
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.689 seconds
-Domain Reload Profiling: 1357ms
-	BeginReloadAssembly (135ms)
+- Finished resetting the current domain, in  0.622 seconds
+Domain Reload Profiling: 1321ms
+	BeginReloadAssembly (113ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (23ms)
+		CreateAndSetChildDomain (19ms)
 	RebuildCommonClasses (30ms)
 	RebuildNativeTypeToScriptingClass (8ms)
-	initialDomainReloadingComplete (31ms)
-	LoadAllAssembliesAndSetupDomain (463ms)
-		LoadAssemblies (280ms)
+	initialDomainReloadingComplete (35ms)
+	LoadAllAssembliesAndSetupDomain (513ms)
+		LoadAssemblies (348ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (264ms)
-			TypeCache.Refresh (226ms)
-				TypeCache.ScanAssembly (194ms)
-			ScanForSourceGeneratedMonoScriptInfo (25ms)
-			ResolveRequiredComponents (10ms)
-	FinalizeReload (690ms)
+		AnalyzeDomain (227ms)
+			TypeCache.Refresh (190ms)
+				TypeCache.ScanAssembly (166ms)
+			ScanForSourceGeneratedMonoScriptInfo (24ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (622ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (542ms)
+		SetupLoadedEditorAssemblies (499ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (4ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (59ms)
-			ProcessInitializeOnLoadAttributes (414ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (381ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (5ms)
+		AwakeInstancesAfterBackupRestoration (4ms)
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 4.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.30 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5844 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 40 unused Assets / (419.1 KB). Loaded Objects now: 6308.
-Memory consumption went from 219.9 MB to 219.5 MB.
-Total: 6.504300 ms (FindLiveObjects: 0.727700 ms CreateObjectMapping: 0.337000 ms MarkObjects: 5.128200 ms  DeleteObjects: 0.308600 ms)
+Unloading 40 unused Assets / (418.9 KB). Loaded Objects now: 6308.
+Memory consumption went from 220.1 MB to 219.7 MB.
+Total: 6.157900 ms (FindLiveObjects: 0.516100 ms CreateObjectMapping: 0.279800 ms MarkObjects: 5.063300 ms  DeleteObjects: 0.296800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -187,372 +187,143 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 39425.490469 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8544090857373385af1d9291a04cd158') in 0.619679 seconds
+  Time since last request: 15976.490608 seconds.
+  path: Assets/New/New Models/Halo Energy Sword
+  artifactKey: Guid(fcecfcab1c4ae264bbaddefc7e9eb657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/New Models/Halo Energy Sword using Guid(fcecfcab1c4ae264bbaddefc7e9eb657) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '6af83507abebca4bef1aa31f71096088') in 0.002695 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1837
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 3.972764 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9a3f4581094b5509219591ddde218e32') in 0.105461 seconds
+  Time since last request: 20.032495 seconds.
+  path: Assets/New/New Models/Robot Helmet
+  artifactKey: Guid(a55b32d75ca53d54eba273454079855b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/New Models/Robot Helmet using Guid(a55b32d75ca53d54eba273454079855b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd8d68d1b8ccaef480fded204466e006f') in 0.000899 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1819
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.333725 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 52.907238 seconds.
+  path: Assets/New/New Models/Robot Helmet/Robot Helmet.FBX
+  artifactKey: Guid(3bc368aa1ebdfff4bba3620df055d00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/New Models/Robot Helmet/Robot Helmet.FBX using Guid(3bc368aa1ebdfff4bba3620df055d00c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '89c0e73c39de302f065cfad44b7f0ab1') in 0.096780 seconds
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd0f107c689fc056ff7d8b653d7a154eb') in 0.409752 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1821
+Number of asset objects unloaded after import = 27
 ========================================================================
 Received Import Request.
-  Time since last request: 2.837103 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 17.097774 seconds.
+  path: Assets/New/New Models/Robot Helmet/Materials/casco_UVChannel_1_color.mat
+  artifactKey: Guid(b4d19260252b9b74293db3d9d4a9ae64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/New Models/Robot Helmet/Materials/casco_UVChannel_1_color.mat using Guid(b4d19260252b9b74293db3d9d4a9ae64) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4b1186145534e8081ce8e79b9ce05601') in 0.112017 seconds
+ -> (artifact id: '0b6a0bb498acc99bf6a6a15e80dd83e5') in 0.035186 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1821
+Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 1.072533 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '538c6f90ddd0def3fefbd8b9f32c9aca') in 0.086282 seconds
+  Time since last request: 146.947667 seconds.
+  path: Assets/New/Weapons
+  artifactKey: Guid(ecc0354b2876c394c9d6680b73320542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/Weapons using Guid(ecc0354b2876c394c9d6680b73320542) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'fb4f74c07dceeb09d81edb85c367ea84') in 0.000694 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1821
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 5.571153 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4b5ebe0a66b1b9a6517bf22d0bb8f7a0') in 0.109058 seconds
+  Time since last request: 20.467994 seconds.
+  path: Assets/New/Weapons/Players Weapons
+  artifactKey: Guid(dbba71a9b74ff7d45b7c425ffa0ff398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/Weapons/Players Weapons using Guid(dbba71a9b74ff7d45b7c425ffa0ff398) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '7fd9d664361e260f79eae4691f728407') in 0.000507 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1821
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 3.703182 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bc7a31bda40bf7dd47ee6257b4769007') in 0.090783 seconds
+  Time since last request: 49.269305 seconds.
+  path: Assets/New/Helmets
+  artifactKey: Guid(866e6dc9a74cf9747a0786cf9e3cfef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/Helmets using Guid(866e6dc9a74cf9747a0786cf9e3cfef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'a76fc63372bab45c52a301e943906791') in 0.000677 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1821
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.759649 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f3460059b1da7448ae357b1d1e9b7072') in 0.118277 seconds
+  Time since last request: 14.944442 seconds.
+  path: Assets/New/Helmets/Halo Helmet
+  artifactKey: Guid(df8808a066254ad48bc29aefe5284216) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/Helmets/Halo Helmet using Guid(df8808a066254ad48bc29aefe5284216) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '905ddabeaf6922036ad71b1ad62742dc') in 0.000573 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1823
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.673312 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '14c7c705d5dc465ac52b9e237e651867') in 0.090309 seconds
+  Time since last request: 0.299112 seconds.
+  path: Assets/New/Helmets/Halo Energy Sword
+  artifactKey: Guid(1ec8d74a1e2ec0d47b8dda6cdded6f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/Helmets/Halo Energy Sword using Guid(1ec8d74a1e2ec0d47b8dda6cdded6f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: 'd6c27c5fbb577501b2824129a70881bb') in 0.000771 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1823
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 4.129380 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '009ce3b3b28b1743e5b0b60415f672b0') in 0.088733 seconds
+  Time since last request: 95.547912 seconds.
+  path: Assets/New/Assets/Buildings
+  artifactKey: Guid(9d55746f20935874fab5b706ddfc4012) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/Assets/Buildings using Guid(9d55746f20935874fab5b706ddfc4012) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+ -> (artifact id: '4ab236d7aa50f75988a152e38fbf5084') in 0.000814 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1823
+Number of asset objects unloaded after import = 0
 ========================================================================
 Received Import Request.
-  Time since last request: 1.223862 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 39.560728 seconds.
+  path: Assets/New/Prefabs/Vehicles/Abandoned_Airplane.prefab
+  artifactKey: Guid(e33a629d6e4e169488593432c52c97e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/Prefabs/Vehicles/Abandoned_Airplane.prefab using Guid(e33a629d6e4e169488593432c52c97e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '23234567e5d1842e9af72bb91186b0cb') in 0.112495 seconds
+ -> (artifact id: '6d90daf21565608cda0a4f287e8c3da2') in 0.115301 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1825
+Number of asset objects unloaded after import = 3346
 ========================================================================
 Received Import Request.
-  Time since last request: 0.867858 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000055 seconds.
+  path: Assets/New/Prefabs/Vehicles/Abandoned_Taxi.prefab
+  artifactKey: Guid(547e5e15ed417e44aa0eee7792299125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/Prefabs/Vehicles/Abandoned_Taxi.prefab using Guid(547e5e15ed417e44aa0eee7792299125) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '22b05cd774f4c8f2e5dbc37a049ee6b1') in 0.092074 seconds
+ -> (artifact id: 'a557e6a5508515b47413426b1a2ad1e5') in 0.094154 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1825
+Number of asset objects unloaded after import = 3341
 ========================================================================
 Received Import Request.
-  Time since last request: 3.131438 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000070 seconds.
+  path: Assets/New/Prefabs/Vehicles/Abandoned_Truck.prefab
+  artifactKey: Guid(92f7ee69382f64b4484e49ab54276369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/Prefabs/Vehicles/Abandoned_Truck.prefab using Guid(92f7ee69382f64b4484e49ab54276369) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd11345f18987f6e0e9abdc9428f647ca') in 0.098682 seconds
+ -> (artifact id: '988a64b5a676c6d84091edec81488d31') in 0.088325 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1827
+Number of asset objects unloaded after import = 3311
 ========================================================================
 Received Import Request.
-  Time since last request: 0.678880 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
+  Time since last request: 0.000053 seconds.
+  path: Assets/New/Prefabs/Vehicles/Abandoned_Tank_Red.prefab
+  artifactKey: Guid(3ff653a50c1cace489335a43ad91a00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New/Prefabs/Vehicles/Abandoned_Tank_Red.prefab using Guid(3ff653a50c1cace489335a43ad91a00a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
 [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7da34f736a463e26e6b7cbcf65a96405') in 0.083755 seconds
+ -> (artifact id: 'bf94d25a478de25e44d215611bca1cae') in 0.093658 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1827
-========================================================================
-Received Import Request.
-  Time since last request: 7.583096 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '00000000000000000000000000000000') in 0.099431 seconds
-Import Error Code:(4)
-Message: Build asset version error: assets/new model/prefabs/env/desert_tree.prefab in SourceAssetDB has modification time of '2025-05-31T14:45:10.2871207Z' while content on disk has modification time of '2025-05-31T14:45:10.4896563Z'
-  ERROR: Build asset version error: assets/new model/prefabs/env/desert_tree.prefab in SourceAssetDB has modification time of '2025-05-31T14:45:10.2871207Z' while content on disk has modification time of '2025-05-31T14:45:10.4896563Z'
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1635
-========================================================================
-Received Import Request.
-  Time since last request: 3.146957 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '11bfd9f5343901f208f200fe17463999') in 0.134198 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1829
-========================================================================
-Received Import Request.
-  Time since last request: 1.199798 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd250dd019385b5ea1cc6a663b0d28292') in 0.095324 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1829
-========================================================================
-Received Import Request.
-  Time since last request: 6.355322 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '4ec2c1a1e6b33400135ce42319c7c11a') in 0.080583 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1829
-========================================================================
-Received Import Request.
-  Time since last request: 1.704209 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '28c99e5a2952d6937858c3d022298899') in 0.096701 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1829
-========================================================================
-Received Import Request.
-  Time since last request: 3.532093 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '1093c8f3a6411a5d462b213f731a7820') in 0.094703 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1829
-========================================================================
-Received Import Request.
-  Time since last request: 2.383260 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '44754c50b2618a3cbf601217620ed4e5') in 0.117346 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1831
-========================================================================
-Received Import Request.
-  Time since last request: 0.863870 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b5490ed0f54841bedf99536a406525f0') in 0.104318 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1831
-========================================================================
-Received Import Request.
-  Time since last request: 3.205968 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'e7f62792b59bf8f574f0cd6e8387727f') in 0.109062 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1833
-========================================================================
-Received Import Request.
-  Time since last request: 0.672740 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'de8134802c37b8b4670fe2ce56d3296e') in 0.108657 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1833
-========================================================================
-Received Import Request.
-  Time since last request: 1.479501 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bc45fda57588650713c8e401dbca39f7') in 0.093112 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1833
-========================================================================
-Received Import Request.
-  Time since last request: 2.525263 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '9990f4bffb30efc6939acece04c50f98') in 0.148686 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1833
-========================================================================
-Received Import Request.
-  Time since last request: 1.441209 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'c2ea3ebeb91ee4414475ea3c6ecc0cd2') in 0.083481 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1833
-========================================================================
-Received Import Request.
-  Time since last request: 1.324386 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a8b94e793da977dbefe5a6134b1f187f') in 0.086850 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1833
-========================================================================
-Received Import Request.
-  Time since last request: 5.737507 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '717c73bf47ec0b6e422eac57b0b516cd') in 0.099178 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1833
-========================================================================
-Received Import Request.
-  Time since last request: 1.625784 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'a0677d9c0495da3866b7c552d1b5cd03') in 0.091332 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1835
-========================================================================
-Received Import Request.
-  Time since last request: 0.897140 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '3bd26351b1fe3431fb5e4d6b89e1db77') in 0.084442 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1835
-========================================================================
-Received Import Request.
-  Time since last request: 9.650343 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'bb5f5d8d510200ed71bfddd092ba313c') in 0.129501 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1837
-========================================================================
-Received Import Request.
-  Time since last request: 0.645564 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '8c1f7033a18a4169f2896b93ff152a30') in 0.127168 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1837
-========================================================================
-Received Import Request.
-  Time since last request: 1.455081 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '7be2964f75f82d5e4a8978bb59cfcfc2') in 0.098373 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1837
-========================================================================
-Received Import Request.
-  Time since last request: 3.848562 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'f412f0358399355106f03384cb1ac5f4') in 0.093202 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1839
-========================================================================
-Received Import Request.
-  Time since last request: 1.086024 seconds.
-  path: Assets/New Model/Prefabs/Env/Desert_Tree.prefab
-  artifactKey: Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Env/Desert_Tree.prefab using Guid(75d56fe81ad513f40915c05ea73a47dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'd9478cd0e9baa4655a850aa414efd721') in 0.094290 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 1839
+Number of asset objects unloaded after import = 3561
 ========================================================================
 Received Prepare
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.471 seconds
+- Loaded All Assemblies, in  0.485 seconds
 Native extension for WindowsStandalone target not found
 [MODES] ModeService[none].Initialize
 [MODES] ModeService[none].LoadModes
@@ -561,46 +332,46 @@ Native extension for WindowsStandalone target not found
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.710 seconds
-Domain Reload Profiling: 2179ms
-	BeginReloadAssembly (174ms)
+- Finished resetting the current domain, in  1.081 seconds
+Domain Reload Profiling: 1565ms
+	BeginReloadAssembly (186ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (11ms)
+		DisableScriptedObjects (12ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (57ms)
-	RebuildCommonClasses (28ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (37ms)
 	RebuildNativeTypeToScriptingClass (10ms)
-	initialDomainReloadingComplete (23ms)
-	LoadAllAssembliesAndSetupDomain (235ms)
-		LoadAssemblies (283ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (225ms)
+		LoadAssemblies (284ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (23ms)
 			TypeCache.Refresh (9ms)
 				TypeCache.ScanAssembly (0ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (12ms)
-	FinalizeReload (1710ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1081ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (711ms)
+		SetupLoadedEditorAssemblies (508ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (4ms)
+			InitializePlatformSupportModulesInManaged (5ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (65ms)
-			ProcessInitializeOnLoadAttributes (577ms)
-			ProcessInitializeOnLoadMethodAttributes (60ms)
+			BeforeProcessingInitializeOnLoad (62ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (52ms)
 			AfterProcessingInitializeOnLoad (2ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Refreshing native plugins compatible for Editor in 7.64 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (13ms)
+Refreshing native plugins compatible for Editor in 9.18 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 5695 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 21 unused Assets / (387.7 KB). Loaded Objects now: 6372.
-Memory consumption went from 199.2 MB to 198.8 MB.
-Total: 10.903700 ms (FindLiveObjects: 0.797000 ms CreateObjectMapping: 1.034200 ms MarkObjects: 8.873700 ms  DeleteObjects: 0.196900 ms)
+Unloading 21 unused Assets / (387.7 KB). Loaded Objects now: 6408.
+Memory consumption went from 199.7 MB to 199.3 MB.
+Total: 11.035000 ms (FindLiveObjects: 1.218200 ms CreateObjectMapping: 1.282700 ms MarkObjects: 8.190900 ms  DeleteObjects: 0.340100 ms)
 
 Prepare: number of updated asset objects reloaded= 0
 AssetImportParameters requested are different than current active one (requested -> active):
@@ -616,33 +387,8 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 590.005270 seconds.
-  path: Assets/New Model/Prefabs/Vehicles/Abandoned_Big_Airplane.prefab
-  artifactKey: Guid(8be85862f0bdcd84b85da7f6da617035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Vehicles/Abandoned_Big_Airplane.prefab using Guid(8be85862f0bdcd84b85da7f6da617035) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'eeb229f85d1314f7ba754cca65d9e056') in 0.337685 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3784
-========================================================================
-Received Import Request.
-  Time since last request: 16.286281 seconds.
-  path: Assets/New Model/Prefabs/Vehicles/Abandoned_Airplane.prefab
-  artifactKey: Guid(e33a629d6e4e169488593432c52c97e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Vehicles/Abandoned_Airplane.prefab using Guid(e33a629d6e4e169488593432c52c97e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: 'b8a83b2578267d77ce9d4a9e030a0e6e') in 0.102999 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3345
-========================================================================
-Received Import Request.
-  Time since last request: 5.744317 seconds.
-  path: Assets/New Model/Prefabs/Vehicles/Abandoned_Airplane.prefab
-  artifactKey: Guid(e33a629d6e4e169488593432c52c97e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Model/Prefabs/Vehicles/Abandoned_Airplane.prefab using Guid(e33a629d6e4e169488593432c52c97e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 16 workers.
- -> (artifact id: '2d28b7ff9f7de252d654f149bdb885e9') in 0.086392 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 3346
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
